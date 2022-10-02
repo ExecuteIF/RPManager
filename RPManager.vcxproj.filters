@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\FileOP">
+      <UniqueIdentifier>{c3210a52-62c1-40cb-8863-11f69a95a726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Main">
+      <UniqueIdentifier>{b685681d-59e1-4b6b-a7d8-542efdc10c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\UIOP">
+      <UniqueIdentifier>{5d4b8254-5d9e-4041-a3e7-775efa78599c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\SystemOP">
+      <UniqueIdentifier>{4b843a8d-aaff-4a14-9f8d-5d7b2c5cbbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Main\index">
+      <UniqueIdentifier>{b8ee407c-2b68-417c-9f3c-897af5f07282}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>源文件\UIOP</Filter>
+    </ClCompile>
+    <ClCompile Include="FileOutput.cpp">
+      <Filter>源文件\UIOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Keys.cpp">
+      <Filter>源文件\SystemOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Chcp.cpp">
+      <Filter>源文件\SystemOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Beep.cpp">
+      <Filter>源文件\SystemOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Init.cpp">
+      <Filter>源文件\Main\index</Filter>
+    </ClCompile>
+    <ClCompile Include="Coord.cpp">
+      <Filter>源文件\SystemOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>源文件\UIOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>源文件\UIOP</Filter>
+    </ClCompile>
+    <ClCompile Include="FolderMember.cpp">
+      <Filter>源文件\FileOP</Filter>
+    </ClCompile>
+    <ClCompile Include="RPManager.cpp">
+      <Filter>源文件\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>源文件\Main\index</Filter>
+    </ClCompile>
+    <ClCompile Include="UnZip.cpp">
+      <Filter>源文件\SystemOP</Filter>
+    </ClCompile>
+    <ClCompile Include="Change.cpp">
+      <Filter>源文件\Main\index</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RPManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mikuFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RPManager.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\其他\icons\ooopic_1564834544.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
